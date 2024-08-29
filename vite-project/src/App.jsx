@@ -41,7 +41,7 @@ import { useState } from "react";
 import { Button, Heading, Box } from "@chakra-ui/react";
 // import UserTable from "";
 import SignUpForm from "./components/SignUpForm";
-import UserTable from "./components/userTable";
+import UserTable from "./components/UserTable";
 
 const App = () => {
   const [showSignUpModal, setShowSignUpModal] = useState(false);
